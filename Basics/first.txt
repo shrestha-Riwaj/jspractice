@@ -1,0 +1,18 @@
+map() = creates a new array by performing some operation on each array element.
+
+const a = [1,2,3]
+a.map((value, index, array)=>{
+    return value.value;
+})
+
+filter() = filters an array with values that passes a test. Creates a new array
+
+const a = [1,2,3,4,5];
+a.filter(greater_than_5)
+
+reduce() = reduces an array to a single value
+
+const a = [1,7,8,9,3]
+let sum = a.reduce((a,b)=>{
+    return a+b;
+})
